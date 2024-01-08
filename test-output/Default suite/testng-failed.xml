@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Testpages.LoginpageTest">
+        <methods>
+          <include name="LoginUser" invocation-numbers="0 1"/>
+          <include name="generateTestStatus"/>
+          <include name="generateReports"/>
+          <include name="getnameMethod"/>
+          <include name="openApplication"/>
+          <include name="InitalizeExtentReport"/>
+        </methods>
+      </class> <!-- Testpages.LoginpageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
