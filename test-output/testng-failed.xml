@@ -3,16 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testpages.LoginpageTest">
+      <class name="Testpages.RegisterpageTest">
         <methods>
-          <include name="LoginUser" invocation-numbers="0 1"/>
+          <include name="method1"/>
           <include name="generateTestStatus"/>
+          <include name="RegisterUser" invocation-numbers="0 1"/>
           <include name="generateReports"/>
+          <include name="InitalizeExtentReport"/>
           <include name="getnameMethod"/>
           <include name="openApplication"/>
-          <include name="InitalizeExtentReport"/>
         </methods>
-      </class> <!-- Testpages.LoginpageTest -->
+      </class> <!-- Testpages.RegisterpageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

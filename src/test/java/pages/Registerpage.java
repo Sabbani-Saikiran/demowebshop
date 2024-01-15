@@ -46,6 +46,10 @@ public class Registerpage {
 	
 	
 	
+	
+	
+	
+	
 	// Actions
 
 		public void RegisterUser(String first_name, String last_name, String emailid_1, String password_1,
