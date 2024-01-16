@@ -10,8 +10,8 @@
           <include name="RegisterUser" invocation-numbers="0 1"/>
           <include name="generateReports"/>
           <include name="InitalizeExtentReport"/>
-          <include name="getnameMethod"/>
           <include name="openApplication"/>
+          <include name="getnameMethod"/>
         </methods>
       </class> <!-- Testpages.RegisterpageTest -->
     </classes>

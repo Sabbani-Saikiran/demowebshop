@@ -80,7 +80,7 @@ public class basepage {
 			// Create a file at the destination and store the screenshot there.
 			// ./ to take current project folder structure
 
-			File destFile = new File("./Screenshots/demowebshop123.png");
+			File destFile = new File("./Screenshots/demowebshop.png");
 
 			FileUtils.copyFile(srcFile, destFile);
 			extentTest.fail(result.getThrowable());
